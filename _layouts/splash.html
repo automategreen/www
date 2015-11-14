@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+    <nav class="top-bar" data-topbar role="navigation">
+      <ul class="title-area">
+        <li class="name"></li>
+        <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+
+        <section class="top-bar-section">
+          <!-- Right Nav Section -->
+          <ul class="right">
+            <li>
+              <a href="/signup">Price</a>
+            </li>
+            <li>
+              <a href="https://app.automategreen.com">Beta login</a>
+            </li>
+          </ul>
+        </section>
+      </ul>
+    </nav>
+
+    <div class="launch">
+
+      <div class="row">
+        <div class="medium-12 large-10 small-centered columns">
+          <div id="splash">
+            {% image splashlogo.png alt="Automate Green"%}
+            <h3>Enhancing home automation</h3>
+          </div>
+        </div>
+      </div>
+      {{ content }}
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
