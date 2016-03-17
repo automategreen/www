@@ -70,6 +70,7 @@ footer h4 {
 
 .logo  {
   height: $topbar-height - 2;
+  width: auto;
 }
 
 .launch {
@@ -91,10 +92,9 @@ footer h4 {
 .feature h1 {
   color: #41CF4B !important;
 }
-.feature h2 {
-  color: #BBB !important;
+.feature h2, .feature h3, .feature h4, .feature h5, .feature strong {
+  color: #AAA !important;
 }
-
 .post-meta {
   color: scale-color($header-font-color, $lightness: 35%)
 }
