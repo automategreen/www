@@ -4,6 +4,8 @@
 @import 'foundation';
 @import 'font-awesome/font-awesome';
 
+$automategreen-green: #41CF4B;
+
 @mixin box-shadow($shadow...) {
   -webkit-box-shadow: $shadow;
      -moz-box-shadow: $shadow;
@@ -47,6 +49,19 @@
 body {
   background-color: #333333;
   color: #999999;
+}
+
+a {
+  color: #BBB;
+}
+
+a:hover, a:active {
+  color: #DDD;
+}
+
+
+h1, h2, h3, h4, h5, strong {
+  color: #AAA;
 }
 
 footer {
@@ -95,9 +110,6 @@ footer h4 {
   color: #41CF4B !important;
 }
 
-h1, h2, h3, h4, h5, strong {
-  color: #AAA;
-}
 .post-meta {
   color: scale-color($header-font-color, $lightness: 35%)
 }
@@ -192,16 +204,16 @@ hr {
 .highlight .gc { color: #999; background-color: #EAF2F5; }
 
 
-$pt-background: #F2F1EF;
+$pt-background: #e5e5e5;
 $pt-highlight-color: #F9690E;
-$pt-main-color: #59ABE3;
+$pt-main-color: #333333;
 
 .subscriptions {
   padding: 2em 0;
 }
 
 .price {
-  color: #F9690E;
+  color: $pt-highlight-color;
 }
 
 .pricing-table {
@@ -215,7 +227,7 @@ $pt-main-color: #59ABE3;
   }
   .price {
     background: $pt-background;
-    color: #F9690E;
+    color: $pt-highlight-color;
     hr {
       color: scale-color($pt-background, $lightness: -60%);
       width: 70%;
