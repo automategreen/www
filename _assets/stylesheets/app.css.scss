@@ -2,6 +2,7 @@
 
 @import 'normalize';
 @import 'foundation';
+@import 'font-awesome/font-awesome';
 
 @mixin box-shadow($shadow...) {
   -webkit-box-shadow: $shadow;
@@ -44,7 +45,8 @@
 
 
 body {
-  background-color: #FFF;
+  background-color: #333333;
+  color: #999999;
 }
 
 footer {
@@ -64,7 +66,7 @@ footer h4 {
   color: #BBB;
 }
 
-.copyright {
+.copyright, .copyright a {
   color: #666;
 }
 
@@ -92,8 +94,9 @@ footer h4 {
 .feature h1 {
   color: #41CF4B !important;
 }
-.feature h2, .feature h3, .feature h4, .feature h5, .feature strong {
-  color: #AAA !important;
+
+h1, h2, h3, h4, h5, strong {
+  color: #AAA;
 }
 .post-meta {
   color: scale-color($header-font-color, $lightness: 35%)
@@ -223,6 +226,9 @@ $pt-main-color: #59ABE3;
     background: $pt-background;
     border: none;
     font-size: 1.5rem;
+    strong {
+      color: $header-font-color;
+    }
     span {
       font-size: 1.2rem;
     }
