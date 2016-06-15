@@ -33,4 +33,7 @@ layout: default
   </div>
 </div>
 
+{% capture specification %}{% include specification.md %}{% endcapture %}
+{{ specification | markdownify }}
+
 <script async src="https://www.trycelery.com/js/celery.js"></script>
