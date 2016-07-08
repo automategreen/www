@@ -5,33 +5,108 @@ layout: default
 
 <div class="row">
   <div class="large-12 columns text-center">
-    {% image sensor-hub-splash.svg alt:"Sensor Hub"%}
+    {% image sensor-hub-splash.svg width:"1600" height:"800" alt:"Sensor Hub"%}
   </div>
 </div>
 
 <div class="row">
   <div class="medium-4 columns text-center">
-    <h3><i class="fa fa-wifi" aria-hidden="true"></i> WiFi Model</h3>
+    <h3><i class="fa fa-fw fa-wifi" aria-hidden="true"></i> WiFi Model</h3>
     <h3 class="price">$99 <small><strike>$149</strike></small></h3>
     <button class="button round" data-celery="574b41d36f745a1100a72c95">
       Pre-Order Now!
     </button>
   </div>
   <div class="medium-4 columns text-center">
-    <h3><i class="fa fa-signal" aria-hidden="true"></i> Mobile 3G Model</h3>
-    <h3 class="price">$199 <small><strike>$299</strike></small></h3>
+    <h3><i class="fa fa-fw fa-signal" aria-hidden="true"></i> Mobile 3G Model</h3>
+    <h3 class="price">$199 <small><strike>$269</strike></small></h3>
     <button class="button round" data-celery="574b43ff6f745a1100a72ca5">
       Pre-Order Now!
     </button>
   </div>
   <div class="medium-4 columns text-center">
-    <h3><i class="fa fa-cogs" aria-hidden="true"></i> Maker Model</h3>
-    <h3 class="price">$79 <small><strike>$119</strike></small></h3>
+    <h3><i class="fa fa-fw fa-cogs" aria-hidden="true"></i> Maker Model</h3>
+    <h3 class="price">$79 <small><strike>$129</strike></small></h3>
     <button class="button round" data-celery="574b45958813941100091037">
       Pre-Order Now!
     </button>
   </div>
 </div>
+<hr>
+<div class="row">
+  <div class="large-12 columns text-center">
+    <h2>Introducing the Sensor Hub!</h2>
+    <p>We are excited to open up pre-ordering for our new Sensor Hub.  The Hub provides support for 6 sensor and 3 relays on a single hub.  It is based on <a href="https://www.particle.io/">Particle's</a> awesome IoT platform which provides support for either WiFi or 3G mobile connectivity.</p>
+  </div>
+</div>
+
+
+<div class="feature">
+  <hr>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1 class="text-center">Smart Home</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 medium-push-6 columns">
+      <h2>Chart Power Usage</h2>
+      <p>Monitor your appliances power usage with current sensors</p>
+      <h2>Alerts for Open Doors</h2>
+      <p>Add some intelligence to your wired contact sensor</p>
+      <h2>Prevent Water Damage</h2>
+      <p>Shut off your water when a leak is detected using a leak sensor and relay</p>
+    </div>
+    <div class="medium-6 medium-pull-6 columns">
+      {% image smarthome.svg width:"500" height:"350" alt:"Smart Home"%}
+    </div>
+  </div>
+</div>
+
+<div class="feature">
+  <hr>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1 class="text-center">Smart Garage</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 columns">
+      <h2>Control 2 Garage Doors</h2>
+      <p>Use the built-in relays to open and close both your garage doors</p>
+      <h2>Monitor Doors</h2>
+      <p>Know when the garage doors are open or closed</p>
+      <h2>Check the Tempature</h2>
+      <p>Place a tempature sensor inside and outside the garage</p>
+    </div>
+    <div class="medium-6 columns">
+      {% image smartgarage.svg width:"500" height:"350" alt:"Smart Garage"%}
+    </div>
+  </div>
+</div>
+
+<div class="feature">
+  <hr>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1 class="text-center">Smart Yard</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="medium-6 medium-push-6 columns">
+      <h2>Track the Enviroment</h2>
+      <p>Leveral tempature, humidiy and soil moisture sensors to chart your yard</p>
+      <h2>Control Irrigation</h2>
+      <p>Turn on the water only when your plants need extra water</p>
+      <h2>Turn on the lights</h2>
+      <p>Control your outdoor lights with the external relay controller</p>
+    </div>
+    <div class="medium-6 medium-pull-6 columns">
+      {% image smartyard.svg width:"500" height:"350" alt:"Smart Home"%}
+    </div>
+  </div>
+</div>
+
 
 {% capture specification %}{% include specification.md %}{% endcapture %}
 {{ specification | markdownify }}
