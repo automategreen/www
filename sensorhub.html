@@ -107,6 +107,20 @@ layout: default
   </div>
 </div>
 
+<div class="feature">
+  <hr>
+  <div class="row">
+    <div class="large-12 columns">
+      <h1 class="text-center">Estimated Timeline</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-12 columns text-center">
+      {% image timeline.svg width:"500" height:"700" alt:"Timeline"%}
+    </div>
+  </div>
+</div>
+
 
 {% capture specification %}{% include specification.md %}{% endcapture %}
 {{ specification | markdownify }}
