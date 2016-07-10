@@ -8,5 +8,4 @@ $(document).foundation();
 anchors.options = {
   placement: 'left'
 };
-anchors.add('.post-content > h2');
-anchors.add('.post-content > h3');
+anchors.add('.faq > h3');

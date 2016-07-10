@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+
+<div class="row">
+  <div class="large-12 columns text-center">
+    {% image sensor-hub-splash.svg width:"1600" height:"800" alt:"Sensor Hub"%}
+  </div>
+</div>
+
+{% capture specification %}{% include specification.md %}{% endcapture %}
+{{ specification | markdownify }}
