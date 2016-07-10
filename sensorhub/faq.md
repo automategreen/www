@@ -18,8 +18,8 @@ layout: faq
 
 ### I did not pre-order a Sensor Hub.  Can I still get updates?
 
-> You can sign-up for the Sensor Hub mailing list below.
->
+<blockquote>
+  <p>You can sign-up for the Sensor Hub mailing list below.</p>
   <div id="mc_embed_signup">
   <form action="//automategreen.us11.list-manage.com/subscribe/post?u=86aecb89f996d4fc9e90b636b&amp;id=97e60647d5" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
       <div id="mc_embed_signup_scroll">
@@ -40,6 +40,7 @@ layout: faq
       </div>
   </form>
   </div>
+</blockquote>
 
 
 ### I no longer want to receive email updates.  How do I unsubscribe?
