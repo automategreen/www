@@ -214,6 +214,9 @@ $pt-main-color: #333333;
 
 .price {
   color: $pt-highlight-color;
+  a {
+    color: $pt-highlight-color;
+  }
 }
 
 .pricing-table {
@@ -232,6 +235,12 @@ $pt-main-color: #333333;
       color: scale-color($pt-background, $lightness: -60%);
       width: 70%;
       margin: 0 auto;
+    }
+    span a {
+      color: scale-color($pt-background, $lightness: -30%);
+    }
+    span a:hover {
+      color: $pt-main-color;
     }
   }
   .bullet-item {

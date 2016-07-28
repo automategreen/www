@@ -65,7 +65,9 @@ layout: faq
 
 ### Do you charge a fee for the service?
 
-> The Automate Green Standard plan is FREE when you own a Sensor Hub. If you pre-order a hub, you will also have access to the free Automate Green Standard plan at the time you place your order.  Pricing for advanced plans can be found [here](/signup/).
+> The Automate Green Standard plan is **FREE** when you own a Sensor Hub. If you pre-order a hub, you will also have access to the free Automate Green Standard plan at the time you place your order.  Pricing for advanced plans can be found [here](/signup/).
+> 
+> The Mobile 3G Model model requires a monthly data plan. The data plan cost **$6** per month per Mobile Hub. Currently this is only available in the United States.
 
 ### What if my question is not listed here?
 
