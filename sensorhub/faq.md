@@ -10,7 +10,7 @@ layout: faq
 
 ### When will my Sensor Hub ship?
 
-> Our goal is to begin shipping pre-orders in late 2016.  Because of all the unknowns with developing a new product, we cannot promise a ship date, but we will try our best to stay on schedule.
+> Our goal is to begin shipping pre-orders in mid 2017.  Because of all the unknowns with developing a new product, we cannot promise a ship date, but we will try our best to stay on schedule.
 
 ### Will Automate Green provide updates of the project's progress?
 
