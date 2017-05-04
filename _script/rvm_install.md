@@ -1,9 +1,13 @@
 
 ```sh
-gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3
-\curl -sSL -k https://get.rvm.io | bash -s stable
-source /home/vagrant/.rvm/scripts/rvm
-rvm use 2.1 --install --binary --fuzzy
-cd /vagrant/
+sudo apt-add-repository -y ppa:rael-gc/rvm
+sudo apt-get update
+sudo apt-get install rvm
+
+
+exit
+
+rvm use 2.1 --install --binary --fuzzy --create
+cd /vagrant/www/
 bundle install
 ```
